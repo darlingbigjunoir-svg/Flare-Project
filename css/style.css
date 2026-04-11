@@ -20,6 +20,29 @@ body{
 }
 
 /* --HEADER STYLING-- */
+ 
+
+.top-arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background:#e63b1f;
+  color: white;
+  padding: 7px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  z-index: 1000;
+}
+
+.top-arrow a {
+  color: white;
+}
+
 header{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Background.jpg);
     background-size: cover;

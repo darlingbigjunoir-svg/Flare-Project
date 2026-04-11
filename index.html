@@ -31,7 +31,7 @@
                 
                 <h2> <i class="fa-solid fa-people-pulling"></i>Flaire</h2>
             </div>
-            <nav>
+            <nav id="nav-menu">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -44,11 +44,11 @@
 
  <!-- Hamburger Button (mobile) -->
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span><a href="#">Home</a></span>
+          <span><a href="#"></a>Home</a></span>
           <span><a href="#">About</a></span>
           <span><a href="#trial">Class</a></span>
           <span><a href="#packages">Packages</a></span>
-          <span><a href="#testimonial">Pages</a> </span>
+          <span><a href="#testimonial">Pages</a></span>
           <span><a href="#">Contact Us</a></span>
         </button>
  
@@ -256,7 +256,7 @@
       navMenu.classList.toggle('open');
     });
  
-    // Close menu when a nav link is clicked
+    
     navMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         hamburger.classList.remove('open');

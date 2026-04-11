@@ -43,14 +43,14 @@
             </nav>
 
  <!-- Hamburger Button (mobile) -->
-        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-          <span><a href="#"></a>Home</a></span>
-          <span><a href="#">About</a></span>
-          <span><a href="#trial">Class</a></span>
-          <span><a href="#packages">Packages</a></span>
-          <span><a href="#testimonial">Pages</a></span>
-          <span><a href="#">Contact Us</a></span>
-        </button>
+        <div class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          <span>Home</span>
+          <span>About</span>
+          <span>Class</span>
+          <span>Packages</span>
+          <span>Pages</span>
+          <span>Contact Us</span>
+        </div>
  
             <a href="#" class="join-now">Join Now</a>
 
@@ -247,14 +247,14 @@
 
 
  <!-- Mobile Menu Script -->
-  <script>
-    menuToggle = document.getElementById('menu-toggle');
-  const nav = document.querySelector('nav');
+ <script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const nav = document.querySelector("nav");
 
-  menuToggle.addEventListener('click', function () {
-    nav.classList.toggle('active');
+  menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
   });
-    </script>
+</script>
 
 
 

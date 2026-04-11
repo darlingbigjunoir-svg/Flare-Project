@@ -459,13 +459,23 @@ footer {
 }
 /* ---END OF FOOTER STYLING--- */
 
-/* ---Hamburger--- */
+
+/* HAMBURGER */
 .menu-toggle {
   display: none;
-  font-size: 25px;
-  color: white;
+  flex-direction: column;
   cursor: pointer;
+  gap: 5px;
 }
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  display: block;
+  transition: 0.3s;
+}
+
 /*----End of hamburger styling------ */
 
 /* ===== RESPONSIVE: TABLET (768px–1024px) ===== */
@@ -486,50 +496,42 @@ footer {
  
 /* ===== RESPONSIVE: MOBILE (<= 768px) ===== */
 @media (max-width: 768px) {
- 
-  /* Navbar */
-  .hamburger {
+
+  .menu-toggle {
     display: flex;
   }
- 
+
   nav {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 75%;
-    max-width: 300px;
+    width: 70%;
     height: 100vh;
-    background: rgba(13,13,13,0.97);
+    background: #0d0d0d;
     display: flex;
-    align-items: center;
     justify-content: center;
-    transition: right 0.35s ease;
-    z-index: 150;
+    align-items: center;
+    transition: 0.3s ease;
   }
- 
-  nav.open {
+
+  nav.active {
     right: 0;
   }
- 
+
   nav ul {
+    display: flex;
     flex-direction: column;
-    gap: 6px;
     text-align: center;
   }
- 
+
   nav li {
-    display: block;
+    margin: 15px 0;
   }
- 
-  nav a {
-    font-size: 18px;
-    padding: 10px 20px;
-    display: block;
-  }
- 
+
   .join-now {
     display: none;
   }
+}
  
   /* Hero */
   .head-content h1 {

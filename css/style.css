@@ -123,7 +123,7 @@ header.inner-page .head-content {
    PACKAGES SECTION
 =========================== */
 .packages {
-    padding: 80px 0;
+    padding: 50px 0;
     text-align: center;
     background: #f9f9f9;
 }
@@ -254,7 +254,7 @@ header.inner-page .head-content {
    TRIAL SECTION (index)
 =========================== */
 .trial {
-    padding: 80px 0;
+    padding: 50px 0;
     background: #f9f9f9;
 }
 .trial-grid {
@@ -323,7 +323,8 @@ header.inner-page .head-content {
    TESTIMONIAL SECTION (index)
 =========================== */
 .testimonial {
-    padding: 80px 0;
+
+    padding: 50px 0;
     background: #f9f9f9;
 }
 .testimonial-grid {
@@ -443,7 +444,7 @@ footer {
 =========================== */
 /* Who We Are */
 .about-intro {
-    padding: 90px 0 70px;
+    padding: 50px 0 60px;
     background: #fff;
 }
 .about-intro-grid {
@@ -596,7 +597,7 @@ footer {
 
 /* Team Section */
 .about-team {
-    padding: 90px 0;
+    padding: 50px 0;
     background: #f9f9f9;
 }
 .about-team-header {
@@ -676,7 +677,7 @@ footer {
    CONTACT PAGE
 =========================== */
 .contact-section {
-    padding: 90px 0;
+    padding: 50px 0;
     background: #f9f9f9;
 }
 .contact-wrapper {
@@ -867,7 +868,7 @@ footer {
 =========================== */
 /* Class Cards Section */
 .classes-section {
-    padding: 90px 0;
+    padding: 50px 0;
     background: #f9f9f9;
 }
 .classes-header {
@@ -974,7 +975,7 @@ footer {
 
 /* Trial Form (Trails page — standalone full-width) */
 .trial-standalone {
-    padding: 90px 0;
+    padding: 50px 0;
     background: #0d0d0d;
 }
 .trial-standalone .ts-header {

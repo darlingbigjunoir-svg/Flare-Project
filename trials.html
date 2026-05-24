@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAIRE | Class Trials</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- Scroll to Top -->
+<div class="top-arrow">
+    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+</div>
+
+<!-- HEADER -->
+<header class="inner-page">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <h2><i class="fa-solid fa-people-pulling"></i> Flaire</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="trails.html">Class</a></li>
+                    <li><a href="index.html#packages">Packages</a></li>
+                    <li><a href="testimonials.html">Pages</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="join-now">Join Now</a>
+        </div>
+        <div class="head-content">
+            <h1>CLASS TRIALS</h1>
+            <p>Home <span>|</span> Class</p>
+        </div>
+    </div>
+</header>
+<!-- END HEADER -->
+
+<main>
+
+    <!-- CLASS CARDS -->
+    <section class="classes-section">
+        <div class="container">
+            <div class="classes-header">
+                <h3>WHAT WE OFFER</h3>
+                <h1>Pick Your Style</h1>
+            </div>
+            <div class="classes-grid">
+
+                <div class="class-card">
+                    <div class="class-thumb hiphop">🎤</div>
+                    <span class="class-tag">STREET STYLE</span>
+                    <div class="class-body">
+                        <h2>Hip Hop Dance</h2>
+                        <p>High-energy urban dance for those who love rhythm, flow, and self-expression. Learn the foundations of street dance from world-class instructors. All levels welcome.</p>
+                        <div class="class-meta">
+                            <span><i class="fa-solid fa-clock"></i> 12 hrs / month</span>
+                            <span><i class="fa-solid fa-wifi"></i> Online &amp; Offline</span>
+                            <a href="#trial-form" class="try-btn">TRY FREE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="class-card">
+                    <div class="class-thumb kpop">🎶</div>
+                    <span class="class-tag">POPULAR PICK</span>
+                    <div class="class-body">
+                        <h2>K-Pop Dance</h2>
+                        <p>Learn the synchronized, polished choreography from your favorite K-Pop hits. Fun, energetic, and guaranteed to have you dancing like your favorite idols.</p>
+                        <div class="class-meta">
+                            <span><i class="fa-solid fa-clock"></i> 12 hrs / month</span>
+                            <span><i class="fa-solid fa-wifi"></i> Online &amp; Offline</span>
+                            <a href="#trial-form" class="try-btn">TRY FREE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="class-card">
+                    <div class="class-thumb modern">🩰</div>
+                    <span class="class-tag">ELEGANT FORM</span>
+                    <div class="class-body">
+                        <h2>Modern Dance</h2>
+                        <p>A fusion of classical technique and contemporary movement. Express yourself with grace, artistry, and freedom. Perfect for dancers seeking to refine their craft.</p>
+                        <div class="class-meta">
+                            <span><i class="fa-solid fa-clock"></i> 12 hrs / month</span>
+                            <span><i class="fa-solid fa-wifi"></i> Online &amp; Offline</span>
+                            <a href="#trial-form" class="try-btn">TRY FREE</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- END CLASS CARDS -->
+
+    <!-- TRIAL FORM -->
+    <section class="trial-standalone" id="trial-form">
+        <div class="container">
+            <div class="ts-header">
+                <h3>JOIN WITH FLAIRE</h3>
+                <h1>Request for Class Trial</h1>
+                <p>Experience the energy and excitement of our dance classes with a free trial session.</p>
+            </div>
+
+            <div class="trial-form-box">
+                <form action="#" method="POST">
+                    <div class="tf-grid">
+                        <div>
+                            <label for="tf-fname">FIRST NAME</label>
+                            <input type="text" id="tf-fname" name="fname" placeholder="First Name">
+                        </div>
+                        <div>
+                            <label for="tf-lname">LAST NAME</label>
+                            <input type="text" id="tf-lname" name="lname" placeholder="Last Name">
+                        </div>
+                        <div>
+                            <label for="tf-email">EMAIL ADDRESS</label>
+                            <input type="email" id="tf-email" name="email" placeholder="your@email.com">
+                        </div>
+                        <div>
+                            <label for="tf-phone">PHONE NUMBER</label>
+                            <input type="tel" id="tf-phone" name="phone" placeholder="+62 000 000 0000">
+                        </div>
+                        <div class="tf-full">
+                            <label for="tf-class">SELECT YOUR PREFERRED CLASS</label>
+                            <select id="tf-class" name="class">
+                                <option value="" disabled selected>Choose a class...</option>
+                                <option value="hiphop">Hip Hop Dance</option>
+                                <option value="kpop">K-Pop Dance</option>
+                                <option value="modern">Modern Dance</option>
+                            </select>
+                        </div>
+                        <div class="tf-full">
+                            <label for="tf-date">PREFERRED TRIAL DATE</label>
+                            <input type="date" id="tf-date" name="date">
+                        </div>
+                        <button type="submit" class="tf-submit">SEND REQUEST</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- END TRIAL FORM -->
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container footer-grid">
+
+        <div class="footer-col">
+            <h2><i class="fa-solid fa-people-pulling"></i> Flaire</h2>
+            <p>This is a simple footer. Like us on social media and follow us!</p>
+            <p><i class="fa-solid fa-location-dot"></i> Jl. Menteng Raya, Jakarta</p>
+            <p><i class="fa-solid fa-envelope"></i> help@tokomoa.com</p>
+            <p><i class="fa-solid fa-phone"></i> +62 876-5432-110</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trails.html">Classes</a></li>
+                <li><a href="#">Schedule</a></li>
+                <li><a href="index.html#packages">Packages</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>OPENING HOURS</h3>
+            <p>09:00 AM - 11:00 AM</p>
+            <p>12:00 PM - 14:00 PM</p>
+            <p>15:00 PM - 17:00 PM</p>
+            <p>18:00 PM - 20:00 PM</p>
+            <p>21:00 PM - 23:00 PM</p>
+        </div>
+
+        <div class="footer-col">
+            <h3>NEWSLETTER</h3>
+            <p>Sign up for our mailing list to get latest updates</p>
+            <div class="newsletter">
+                <input type="email" placeholder="Your email">
+                <button>SUBSCRIBE</button>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright © 2026 Flaire - Dance School &amp; Studio Designed by Kaku Awuah</p>
+    </div>
+</footer>
+<!-- END FOOTER -->
+
+</body>
+</html>

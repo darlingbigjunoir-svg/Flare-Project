@@ -443,7 +443,7 @@ footer {
 =========================== */
 /* Who We Are */
 .about-intro {
-    padding: 90px 0 70px;
+    padding: 40px 0 70px;
     background: #fff;
 }
 .about-intro-grid {
@@ -867,7 +867,7 @@ footer {
 =========================== */
 /* Class Cards Section */
 .classes-section {
-    padding: 90px 0;
+    padding: 40px 0;
     background: #f9f9f9;
 }
 .classes-header {
@@ -1311,8 +1311,7 @@ footer {
 /* ===========================
    PACKAGES PAGE
 =========================== */
-/* Packages page uses .packages, .package-content, .package-card etc.
-   already defined above. These are additional page-specific styles. */
+
 
 .packages-page-section {
     padding: 40px 0;
